@@ -1,0 +1,36 @@
+From topf at users.berlios.de  Thu Dec  6 14:46:10 2007
+From: topf at users.berlios.de (T. Pfaff)
+Date: Thu, 06 Dec 2007 14:46:10 +0100
+Subject: [Portpkg-announce] ANNOUNCE: portpkg-0.38.5
+Message-ID: <1196948775l.6481l.0l@localhost>
+
+Released portpkg-0.38.5:
+ * Fixed maintainer mode hang.
+ * Fixed wrong timestamps.
+ * Fixed defaulting to proper umask.
+ * Dependencies are now checked before doing anything (resulting in a
+ reasonable and complete list of what to do and what options to
+ consider).
+
+As usual updates are available as source package (.tar.bz2) via "make 
+install", as Slackware package (.tgz) via "installpkg"/"upgradepkg" or 
+in ports via "portpkg --sync; portpkg portpkg":
+
+http://prdownload.berlios.de/portpkg/portpkg-0.38.5.tar.bz2
+http://prdownload.berlios.de/portpkg/portpkg-0.38.5-noarch-1tom.tgz
+
+Regards,
+  Tom
+
+--
+The Portpkg Project - http://portpkg.berlios.de
+
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 189 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/portpkg-announce/attachments/20071206/3562dd89/attachment.pgp>
+
